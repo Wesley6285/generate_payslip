@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box{
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    row-gap: 20px;
+    transform: translateX(20px);
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgb(20, 12, 29);
+}
+.btc{
+    width: 65px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: green;
+    transition: 0s ease-in-out;
+}
+.btn{
+    width: 75px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: red;
+    transition: 0s ease-in-out;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.move{
+    width: 100%;
+    margin:50px 0px;
+    display: flex;
+    justify-content:space-between;
+}
+#preloader{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;
+    height: 100vh;
+    z-index: 100;
+}
+#mc {
+    background-color: Lightblue;
+    font-size: 16px;
+    color: black;
+    width: 800px;
+    height: 60px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+label{
+    font-size: 25px;
+    display:block;
+    margin: 20px 0;
+    letter-spacing: 3px;
+}
+input{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 6px 0px rgb(184, 182, 193);
+    font-size: 20px;
+    font-weight:bolder;
+    letter-spacing: 1px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+}
+.box a:hover{
+    color: white;
+}
+.password-strength {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.btc:hover{
+    cursor: pointer;
+	background-color: white;
+    color: green;
+}
+.btn:hover {
+    background-color:white;
+    cursor: pointer;
+    color:red;
+    opacity: 0.8;
+}
+:placeholder-shown{
+    caret-color: red;
+    text-align: center;
+    color: black;
+}
